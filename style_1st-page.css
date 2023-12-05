@@ -1,0 +1,49 @@
+body {
+    background-color: #BD83B8;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.text {
+    color: white;
+    font-family: cursive;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 300px;
+    text-shadow: 5px 5px 4px #000000;
+
+    animation: glow 2.0s ease infinite;
+    -moz-animation: glow 2.0s ease infinite;
+    -webkit-animation: glow 2.0s ease infinite;
+
+}
+
+@keyframes glow {
+    0%,
+    100% {
+      text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+      color: #FED128;
+    }
+    50% {
+      text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+      color: #806914;
+    }
+}
+   
+.click_me {
+    background-color: #F1916D;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    padding:35px 45px 35px 45px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 5px black;
+}
+.click_me:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.click_me:active{
+    opacity: 0.64;
+}

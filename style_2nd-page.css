@@ -1,0 +1,199 @@
+body {
+    background-color: #451952;
+}
+
+.circle {
+    background-color: #f1916d;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 270px;
+    margin-left: 650px;
+}
+.leaf1 {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #BD83B8;
+	transform: rotate(45deg);
+    /* margin-bottom: 850px; */
+    margin-left: 650px;
+    margin-top: 23px;
+}
+
+.leaf2 {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #BD83B8;
+	transform: rotate(-5deg);
+    /* margin-bottom: 500px; */
+    margin-left: 750px;
+    margin-top: -140px;
+}
+.leaf3 {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #BD83B8;
+	transform: rotate(47deg);
+    /* margin-bottom: 50px; */
+    margin-left: 650px;
+    margin-top: -310px;
+}
+.leaf4 {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #BD83B8;
+	transform: rotate(-40deg);
+    /* margin-bottom: 50px; */
+    margin-left: 530px;
+    margin-top: 0px;
+}  
+.leaf5 {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #BD83B8;
+	transform: rotate(-45deg);
+    /* margin-bottom: 50px; */
+    margin-left: 780px;
+    margin-top: -80px;
+}
+.leaf6 {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #BD83B8;
+	transform: rotate(-85deg);
+    /* margin-bottom: 500px; */
+    margin-left: 750px;
+    margin-top: -185px;
+}
+.leaf7 {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #BD83B8;
+	transform: rotate(-85deg);
+    /* margin-bottom: 500px; */
+    margin-left: 550px;
+    margin-top: 80px;
+}
+.leaf8 {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #BD83B8;
+	transform: rotate(-10deg);
+    /* margin-bottom: 500px; */
+    margin-left: 560px;
+    margin-top: -280px;
+}
+
+.leaf1,.leaf2,.leaf3,.leaf4,.leaf5,.leaf6,.leaf7,.leaf8{
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
+    0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+}
+.circle{
+    
+      width:100px;
+      height:100px;
+      border-radius:50px;
+      box-shadow: 0 0 2px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff;
+      -webkit-animation: blink 0.7s infinite alternate;
+      animation: blink 0.7s infinite alternate;
+}
+
+.stem {
+    background-color: black;
+    height: 250px;
+    width: 10px;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+.stem {
+      box-shadow: 0 0 2px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff;
+      -webkit-animation: blink 0.7s infinite alternate;
+      animation: blink 0.7s infinite alternate;
+}
+.stem-leaf {
+    width: 100px;
+	height: 100px;
+	border-radius: 0 100px;
+	background-color: #072e33;
+    margin-left: 730px;
+    margin-top: -170px;
+    transform: rotate(-60deg);
+
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #072e33, 0 0 30px #072e33,
+    0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+
+}
+
+/* .text {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 60px;
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -500px;
+    margin-left: 130px;
+    text-shadow: 5px 5px 4px #000000;
+
+    text-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px , 0 0 30px #fff,
+    0 0 40px #fff;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+
+} */
+
+.container {
+    /* width: 100%;
+    min-height: 100vh; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    /* background-color: #14213d;*/
+  } 
+  
+  .text span {
+    font-size: 60px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: #fff;
+    animation: zoomup 3s linear infinite;
+    animation-delay: calc(200ms * var(--i));
+  }
+  
+  @keyframes zoomup {
+    0%,
+    100% {
+      color: #00c2ba;
+      filter: blur(1px);
+      text-shadow: 0 0 10px #00c2ba, 0 0 20px #00c2ba, 0 0 30px #00c2ba,
+        0 0 40px #00c2ba, 0 0 60px #00c2ba, 0 0 80px #00c2ba, 0 0 100px #00c2ba,
+        0 0 120px #00c2ba;
+    }
+  
+    5%,
+    95% {
+      filter: blur(0);
+      color: #fff;
+      text-shadow: none;
+    }
+  }
+
+  
+  
+  
+  
